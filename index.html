@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TraceX | Smart Log Analyzer - AI Incident Copilot &amp; SOC Telemetry</title>
+    <meta name="description" content="Next-Gen cybersecurity log analysis platform with deterministic mathematical anomaly detection and Tier-3 AI Incident Copilot." />
+    
+    <!-- Google Fonts Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailored Theme Meta -->
+    <meta name="theme-color" content="#070913" />
+    <!-- Tailwind CDN for fast utility rendering alongside our custom design system -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              cyber: {
+                dark: '#070913',
+                surface: '#0c1222',
+                card: '#0e162e',
+                cyan: '#06b6d4',
+                violet: '#8b5cf6',
+                rose: '#f43f5e'
+              }
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#070913] text-slate-100 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
